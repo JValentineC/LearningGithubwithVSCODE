@@ -22,10 +22,12 @@ This creates build-portfolio and switches to it in one step. Confirm with git br
 Step 5 · Build your portfolio
 Add your content to index.html and your styling to style.css. Save often — nothing gets committed until Step 7, so there's no risk in experimenting.
 Step 6 · Check your work
+
 Before committing, see what Git has noticed:
 git status
 You should see index.html and style.css listed as untracked (or modified) files.
-✅ Checkpoint 3 — Ready to commit. git status shows your changed files, and git branch confirms you're still on build-portfolio.
+Checkpoint 3 — Ready to commit. git status shows your changed files, and git branch confirms you're still on build-portfolio.
+
 Step 7 · Commit, push, merge
 Save your files first, then run:
 git add index.html style.css
@@ -35,7 +37,8 @@ Now bring your work onto main:
 git switch main
 git merge build-portfolio
 git push
-✅ Checkpoint 4 — Pushed & merged. Refresh your repo page on GitHub — you should see index.html and style.css with your commit message.
+Checkpoint 4 — Pushed & merged. Refresh your repo page on GitHub — you should see index.html and style.css with your commit message.
+
 Step 8 · Publish with GitHub Pages
 On GitHub, in your repo:
 1. Settings → Pages (left sidebar).
@@ -43,4 +46,4 @@ On GitHub, in your repo:
 3. Branch: main, folder / (root). Click Save.
 4. Wait 1–2 minutes, then refresh the page. A green banner shows your link: https://USERNAME.github.io/portfolio/
 Open it. Paste the link in the class channel.
-✅ Checkpoint 5 — Live on Pages. Your styled portfolio loads at your public URL. You shipped it. 🚀
+Checkpoint 5 — Live on Pages. Your styled portfolio loads at your public URL. You shipped it. 🚀
